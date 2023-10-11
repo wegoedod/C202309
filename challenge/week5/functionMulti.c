@@ -3,9 +3,9 @@
 int multif(int value);//multif 함수 원형 선언
 
 int main() { //문자열 출력 및 함수 multif 호출
-	printf("1부터 2까지의 곱은 %d\n", multif(2));
-	printf("1부터 3까지의 곱은 %d\n", multif(3));
-	printf("1부터 5까지의 곱은 %d\n", multif(5));
+	printf("1부터 2까지의 곱은 %ld\n", multif(2));
+	printf("1부터 3까지의 곱은 %ld\n", multif(3));
+	printf("1부터 5까지의 곱은 %ld\n", multif(5));
 	return 0;
 }
 
