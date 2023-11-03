@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int multif(int value);//multif 함수 원형 선언
+long multif(int value);//multif 함수 원형 선언
 
 int main() { //문자열 출력 및 함수 multif 호출
 	printf("1부터 2까지의 곱은 %ld\n", multif(2));
